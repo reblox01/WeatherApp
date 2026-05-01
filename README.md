@@ -26,13 +26,5 @@ git clone https://github.com/zaydkassimi/WeatherApp.git
 Add in local.properties:
 OPEN_WEATHER_API_KEY=your_api_key_here
 
-## Structure
-data/
-domain/
-di/
-presentation/
-ui.theme/
-util/
-
 ## Author
 Zayd Kassimi
