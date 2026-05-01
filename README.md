@@ -51,6 +51,20 @@ OPEN_WEATHER_API_KEY=your_api_key_here
 
 ---
 
+
+## 🔐 Security
+
+This project was designed and reviewed using an OWASP-inspired checklist for mobile applications.  
+Key points:
+
+- **Input Validation:** User input (city search) is sanitized and validated before being sent to the API.
+- **Network Security:** All API calls use HTTPS with secure network configuration.
+- **Secrets Management:** The OpenWeather API key is injected via `local.properties` / `BuildConfig` and never hardcoded.
+- **Error Handling:** User-facing errors avoid exposing internal stack traces or sensitive details.
+- **Hardening:** Release builds use code obfuscation (R8/ProGuard) and minimized logging.
+---
+
+
 ## 🔮 Future Roadmap
 - 📍 Auto-location weather detection
 - 🌙 Dark / Light theme toggle
