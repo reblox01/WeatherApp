@@ -1,0 +1,7 @@
+# This file is an example. Create a 'local.properties' file in the same directory
+# and add your OpenWeatherMap API key there.
+# Do NOT commit 'local.properties' to version control.
+
+# OpenWeatherMap API Key
+# Get your key at https://openweathermap.org/api
+OPEN_WEATHER_MAP_API_KEY=your_api_key_here
